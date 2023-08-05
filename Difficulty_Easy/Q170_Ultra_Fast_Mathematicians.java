@@ -20,7 +20,7 @@ public class Q170_Ultra_Fast_Mathematicians {
 				rem2=N%10;
 				if(rem1!=rem2) {
 					sum=sum+1*mul;
-					//System.out.print("1");
+					System.out.print(sum);
 				}
 				else {
 					//sum=sum+0*mul;
@@ -30,7 +30,7 @@ public class Q170_Ultra_Fast_Mathematicians {
 				M=M/10;
 				N=N/10;
 			}
-			System.out.println(sum);
+			//System.out.println(sum);
 		}
 
 	}
